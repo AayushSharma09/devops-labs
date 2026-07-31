@@ -1,23 +1,19 @@
 # Spring Boot Basics
 
-## Goal
+## Topics Covered
 
-Learn how to create and run a Spring Boot REST API.
-
----
-
-## Prerequisites
-
-- Java 25
+- Spring Boot Project
 - Maven
+- REST Controller
+- Service Layer
+- DTO
+- Dependency Injection
+- Health Endpoint
+- Login Endpoint
 
----
-
-## Commands
+## Commands Used
 
 ```bash
-java -version
-
-mvn -version
-
 mvn spring-boot:run
+mvn clean
+mvn test
